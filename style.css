@@ -13,7 +13,8 @@ body{
     gap: 40px;
 }
 .logo img{
-    height: clamp(10rem, 15rem, 20rem);
+    height: 14rem;
+    min-height: 7rem;
 }
 .buttons{
     display: flex;
