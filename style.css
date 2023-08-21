@@ -13,7 +13,7 @@ body{
     gap: 40px;
 }
 .logo img{
-    width: 20rem;
+    height: clamp(10rem, 15rem, 20rem);
 }
 .buttons{
     display: flex;
