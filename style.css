@@ -10,11 +10,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
 }
 .logo{
     display: flex;
     width: 100%;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -27,8 +27,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     width: 100%;
     flex-direction: column;
+    margin-bottom: 15px;
     gap: 20px;
 }
 .button{
@@ -46,4 +48,9 @@ body{
 .button:hover{
     top:-2px;
     box-shadow:0 2px 2px #666;
+}
+.row{
+    width: 45%;
+    border-bottom: solid #fff;
+    min-width: 300px;
 }
