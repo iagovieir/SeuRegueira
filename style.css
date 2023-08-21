@@ -33,6 +33,7 @@ body{
 }
 .button{
     display: flex;
+    position:relative;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -41,4 +42,8 @@ body{
     width: 45%;
     min-width: 300px;
     background-color: #222222;
+}
+.button:hover{
+    top:-2px;
+    box-shadow:0 2px 2px #666;
 }
