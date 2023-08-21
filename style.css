@@ -54,3 +54,8 @@ body{
     border-bottom: solid #fff;
     min-width: 300px;
 }
+.LogoFacebook img{
+    width: 3rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
