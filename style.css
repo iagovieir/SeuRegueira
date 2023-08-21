@@ -38,6 +38,6 @@ body{
     height: 56px;
     width: 50%;
     max-width: 50%;
-    min-width: 90%;
+    min-width: 400px;
     background-color: #222222;
 }
