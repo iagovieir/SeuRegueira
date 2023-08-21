@@ -12,9 +12,14 @@ body{
     align-items: center;
     gap: 40px;
 }
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 .logo img{
-    height: 14rem;
-    min-height: 7rem;
+    width: 20%;
 }
 .buttons{
     display: flex;
