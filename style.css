@@ -59,7 +59,7 @@ body{
     margin-top: 20px;
     cursor: pointer;
 }.poup-up{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.519);
@@ -75,14 +75,49 @@ body{
 }
 .floatDiv{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
     background-color: #666;
     border-radius: 1rem;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
 }
-.floatDiv img{
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    gap: 2rem;
+}
+.floatDiv .img img{
     height: 50%;
+}
+.close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30%;
+    width: 100%;
+}
+.X{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    cursor: pointer;
+}
+.X:hover{
+    background-color: #383737;
+    border-radius: 0 1rem 0 0;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    height: 100%;
 }
