@@ -14,7 +14,7 @@ function twitter(){
     window.location.href = 'https://twitter.com/seuregueirazn'
 }
 function facebook(){
-    window.location.href = ''
+    window.location.href = 'https://www.facebook.com/seuregueira'
 }
 function googlemaps(){
     window.location.href = 'https://goo.gl/maps/DYjYyvzdxfJUzdi48'
