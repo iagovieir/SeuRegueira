@@ -28,4 +28,7 @@ function wsp(){
 function acesosvip(){
     window.location.href = 'https://www.sympla.com.br/regueira-exclusive__2127462?token=ec76b47eb4a764dd56e0bee8807f8b6f'
 }
+function uber(){
+    window.location.href = 'https://m.uber.com/ul/?action=setPickup&client_id=56wiWyloFq7Iosr6uxSS1Wc_VOHNLSLd&pickup=my_location&dropoff[formatted_address]=Rua%20Regueira%20Costa%20-%20Rosarinho%2C%20Recife%20-%20PE%2C%20Brasil&dropoff[latitude]=-8.033682&dropoff[longitude]=-34.898360'
+}
 
