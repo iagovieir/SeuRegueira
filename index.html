@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Seu Regueira</title>
+    
 </head>
 <body>
     
@@ -18,7 +20,7 @@
         <div class="button">
             Liberar Acesso VIP
         </div>
-        <div class="button">
+        <div class="button" onclick="Open()">
             Como Chegar
         </div>
     </div>
@@ -27,13 +29,13 @@
         <div class="LogoFacebook"><img src="assets/instagram (1).png" alt="LogoInstagram"></div>
         <div class="LogoFacebook"><img src="assets/twitter.png" alt="LogoTwitter"></div>
     </div> 
-    <div class="poup-up">
+    <div class="poup-up" id="popup">
         <div class="floatDiv">  
             <div class="close">
                 <div class="label">
                     Escolha uma opção
                 </div>
-                <div class="X">
+                <div class="X" onclick="Close()">
                     X
                 </div>
             </div>

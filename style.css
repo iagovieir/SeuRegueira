@@ -58,8 +58,9 @@ body{
     width: 3rem;
     margin-top: 20px;
     cursor: pointer;
-}.poup-up{
-    display: flex;
+}
+.poup-up{
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.519);
