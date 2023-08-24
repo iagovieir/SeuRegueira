@@ -28,13 +28,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     width: 100%;
     flex-direction: column;
     margin-bottom: 15px;
     gap: 20px;
 }
 .button{
+    cursor: pointer;
     display: flex;
     position:relative;
     justify-content: center;
@@ -93,15 +93,23 @@ body{
     width: 100%;
     gap: 2rem;
 }
-.floatDiv .img img{
-    height: 50%;
-}
 .close{
     display: flex;
     justify-content: center;
     align-items: center;
     height:30%;
     width: 100%;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.img img{
+    cursor: pointer;
+    height: 50%;
 }
 .X{
     display: flex;
