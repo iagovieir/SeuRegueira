@@ -26,7 +26,7 @@ function wsp(){
     window.location.href = 'https://api.whatsapp.com/send?phone=5581981881144&text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20das%20redes%20sociais,%20gostaria%20de%20comprar%20meu%20ingresso%20do%20@seuregueira'
 }
 function acesosvip(){
-    window.location.href = 'https://www.sympla.com.br/regueira-exclusive__2127462?token=ec76b47eb4a764dd56e0bee8807f8b6f'
+    window.location.href = 'https://www.sympla.com.br/produtor/seuregueira'
 }
 function uber(){
     window.location.href = 'https://m.uber.com/ul/?action=setPickup&client_id=56wiWyloFq7Iosr6uxSS1Wc_VOHNLSLd&pickup=my_location&dropoff[formatted_address]=Rua%20Regueira%20Costa%20-%20Rosarinho%2C%20Recife%20-%20PE%2C%20Brasil&dropoff[latitude]=-8.033682&dropoff[longitude]=-34.898360'
