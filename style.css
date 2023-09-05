@@ -1,9 +1,9 @@
 html{
+    height: 100vh;
     background-image: url(assets/DSC00902.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size: 100%;
     bottom: 0;
-    color: black;
     left: 0;
     overflow: auto;
     padding: 3em;
@@ -42,7 +42,7 @@ body{
     
 }
 .logo img{
-    width: 60%;
+    max-width: 300px;
     min-width: 200px;
     height: auto;
 }
@@ -56,6 +56,8 @@ body{
     gap: 20px;
 }
 .button{
+    padding-left: 1rem;
+    padding-right: 1rem;
     cursor: pointer;
     display: flex;
     position:relative;
